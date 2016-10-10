@@ -1,0 +1,75 @@
+html {
+  background: url('../Images/Background.gif') no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  height: 50px;
+  padding: 20px;
+}
+#hero a {
+  float: right;
+}
+
+header h4 {
+  color: white;
+  margin: 10px 0;
+}
+header h3 {
+  color: white;
+}
+
+p {
+  color: white;
+  width: 60px;
+  display: block;
+  width: 450px;
+  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+}
+
+em {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.resume {
+  color: black;
+  margin: 10px 90px;
+  font-size: 30px;
+  /*float:right;*/
+}
+
+footer {
+  height: 80px;
+}
+
+footer.img {
+  margin: 0 20px;
+  color: white;
+}
+
+ul {
+  display: block;
+  text-align: right;
+}
+
+li {
+  display: inline-block;
+
+}
+
+.contacts {
+  color: white;
+  padding: 10px;
+
+}
