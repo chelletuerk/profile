@@ -1,5 +1,5 @@
 html {
-  background: url('../images/Background.gif') no-repeat;
+  background: url('../images/background.gif') no-repeat;
   background-size: cover;
 }
 
@@ -10,10 +10,28 @@ body {
 header {
   height: 50px;
   padding: 20px;
+  margin-bottom: 50px;
 }
 #hero a {
   float: right;
 }
+
+#project {
+  height: 220px;
+  width: 257px;
+  margin: -25px;
+}
+
+img {
+  -webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+img:hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.4);
+}
+
 
 header h4 {
   color: white;
@@ -31,6 +49,8 @@ p {
   padding: 20px;
   text-align: left;
   font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 em {
@@ -38,24 +58,55 @@ em {
   font-weight: bolder;
 }
 
-.btn:hover {
-  color: white;
+.btn {
+  margin: -10px;
+  height: 230px;
+  width: 264px;
+}
+
+.twit {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 60%;
+}
+
+.link {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 68%;
+}
+
+.email {
+  background-color: white;
+  height: 60px;
+  width: 55px;
+  position: absolute;
+  left: 51%;
+}
+
+.git {
+  background-color: white;
+  height: 60px;
+  width: 55px;
+  position: absolute;
+  left: 42%;
 }
 
 .resume {
-  color: black;
-  margin: 10px 90px;
-  font-size: 30px;
-  /*float:right;*/
+  color: white;
+  height: 60px;
+  width: 55px;
+  position: absolute;
+  left: 77%;
 }
+
+
 
 footer {
   height: 80px;
-}
-
-footer.img {
-  margin: 0 20px;
-  color: white;
+  padding-bottom: 10%;
 }
 
 ul {
@@ -65,11 +116,33 @@ ul {
 
 li {
   display: inline-block;
-
 }
 
-.contacts {
-  color: white;
-  padding: 10px;
+@media screen and (max-width: 900px) {
 
+  html {
+    background: url('../images/desktop-copy.png') no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    html {
+      background: url('../images/tablet-portrait.png') no-repeat;
+      background-size: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+      background: url('../images/iPhone-7-Plus.png') no-repeat;
+      background-size: cover;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html {
+      background: url('../images/iPhone-SE.png') no-repeat;
+      background-size: cover;
+    }
 }
